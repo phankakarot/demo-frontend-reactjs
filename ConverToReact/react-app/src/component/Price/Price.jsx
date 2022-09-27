@@ -103,20 +103,20 @@ const Price = () => {
 
     const renderTabContent = () => {
         return tabList?.map((item, index) => (
-            <div key={`tab-content-${index}`} class="tab-content clearfix" id={item.href}>
-                <div class="row">
+            <div key={`tab-content-${index}`} className="tab-content clearfix" id={item.href}>
+                <div className="row">
                     {item.serviceList?.map((item, index) => (
-                        <div class="col-lg-6 service-wrap">
-                            <div class="service-header">
-                                <div class="service-name">
+                        <div className="col-lg-6 service-wrap">
+                            <div className="service-header">
+                                <div className="service-name">
                                     <a href="/">{item.title}</a>
                                 </div>
-                                <div class="service-dots">
-                                    <span class="separator-dots"></span>
+                                <div className="service-dots">
+                                    <span className="separator-dots"></span>
                                 </div>
-                                <div class="service-price color">{`$${item.price}`}</div>
+                                <div className="service-price color">{`$${item.price}`}</div>
                             </div>
-                            <p class="service-desc">{item.description}</p>
+                            <p className="service-desc">{item.description}</p>
                         </div>
                     ))}
 
@@ -124,28 +124,28 @@ const Price = () => {
             </div>
         ))
     }
-    
-    return (
-        <div id="section-price" class="section m-0 page-section bg-transparent">
-            <div class="container clearfix">
 
-                <div class="heading-block center bottommargin">
-                    <h3 class="cookie-font text-capitalize color">Our Price</h3>
+    return (
+        <div id="section-price" className="section m-0 page-section bg-transparent">
+            <div className="container clearfix">
+
+                <div className="heading-block center bottommargin">
+                    <h3 className="cookie-font text-capitalize color">Our Price</h3>
                     <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut officiis eum suscipit officia modi autem fuga odio, animi minus cumque.</span>
                 </div>
 
-                <div class="tabs tabs-responsive clearfix" id="tab-1" data-accordion-style="accordion accordion-bg">
+                <div className="tabs tabs-responsive clearfix" id="tab-1" data-accordion-style="accordion accordion-bg">
 
-                    <ul class="tab-nav center tab-nav2 bottommargin clearfix">
+                    <ul className="tab-nav center tab-nav2 bottommargin clearfix">
                         {renderTabs()}
                     </ul>
 
-                    <div class="tab-container">
+                    <div className="tab-container">
                         {renderTabContent()}
                     </div>
 
                 </div>
-                <div class="center"><img class="img-responsive" src="demos/spa/images/others/bg-tab.jpg" alt="Image" /></div>
+                <div className="center"><img className="img-responsive" src="demos/spa/images/others/bg-tab.jpg" alt="Image" /></div>
             </div>
         </div>
     )

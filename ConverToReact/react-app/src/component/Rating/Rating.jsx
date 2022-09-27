@@ -6,7 +6,7 @@ const Rating = ({ count }) => {
 
     return (
         countStarArr?.map((item, index) => {
-            return <i class={`icon-star${item <= count ? '-empty':'3'}`}></i>;
+            return <i className={`icon-star${item > count ?(item - 1 < count ? '-half-full' : '-empty') :'3'}`}></i>;
         })
     )
 }

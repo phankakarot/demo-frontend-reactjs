@@ -4,7 +4,7 @@ import Navigation from '../../component/Navigation/Navigation';
 import Price from '../../component/Price/Price';
 import Service from '../../component/Service/Service';
 import Slider from '../../component/Slider/Slider';
-import Testimonials from '../../component/Testimonials/Testimonials';
+import Testimonials from '../../component/Testimonials/Testimonials.js';
 import Contract from '../../component/Contract/Contract';
 
 const Home = () => {
@@ -13,17 +13,17 @@ const Home = () => {
             <Navigation />
             <Slider />
             <section id="content">
-                <div class="content-wrap pt-0">
+                <div className="content-wrap pt-0">
                     <About />
                     <Service />
-                    <a href="/" class="button button-full center">
-                        <div class="container clearfix">
+                    <a href="/" className="button button-full center">
+                        <div className="container clearfix">
                             Book your visit online and save upto 25% Discount
                         </div>
                     </a>
-                    <Price />
-                    <Testimonials />
-                    <Contract />
+                    <Price/>
+                    <Testimonials/>
+                    <Contract/>
                 </div>
             </section>
         </div>
