@@ -6,6 +6,7 @@ import Service from '../../component/Service/Service';
 import Slider from '../../component/Slider/Slider';
 import Testimonials from '../../component/Testimonials/Testimonials.js';
 import Contract from '../../component/Contract/Contract';
+import Footer from '../../component/Footer/Footer';
 
 const Home = () => {
     return (
@@ -26,6 +27,7 @@ const Home = () => {
                     <Contract/>
                 </div>
             </section>
+            <Footer/>
         </div>
     )
 }
