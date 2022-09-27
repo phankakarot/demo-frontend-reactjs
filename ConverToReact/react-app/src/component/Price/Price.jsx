@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from 'react'
+import { IMAGE_DATA } from '../../assests/images'
 
 const Price = () => {
 
@@ -145,7 +146,7 @@ const Price = () => {
                     </div>
 
                 </div>
-                <div className="center"><img className="img-responsive" src="demos/spa/images/others/bg-tab.jpg" alt="Image" /></div>
+                <div className="center"><img className="img-responsive" src={IMAGE_DATA.others.bgTab}  alt="Image" /></div>
             </div>
         </div>
     )

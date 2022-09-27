@@ -1,4 +1,5 @@
 import React from 'react'
+import { IMAGE_DATA } from '../../assests/images'
 import './Navigation.css'
 
 const Navigation = () => {
@@ -12,8 +13,8 @@ const Navigation = () => {
           <div className="header-row">
             {/* Logo  ============================================= */}
             <div id="logo">
-              <a href="index.html" className="standard-logo"><img src="demos/spa/images/logo.png" alt="Canvas Logo" /></a>
-              <a href="index.html" className="retina-logo"><img src="demos/spa/images/logo.png" alt="Canvas Logo" /></a>
+              <a href="index.html" className="standard-logo"><img src={IMAGE_DATA.logo.primary} alt="Canvas Logo" /></a>
+              <a href="index.html" className="retina-logo"><img src={IMAGE_DATA.logo.primary} alt="Canvas Logo" /></a>
             </div>{/* #logo end */}
             <div id="primary-menu-trigger">
               <svg className="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20" /><path d="m 30,50 h 40" /><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20" /></svg>

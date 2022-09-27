@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 /* eslint-disable react/style-prop-object */
 import React from 'react'
+import { IMAGE_DATA } from '../../assests/images'
 
 const Slider = () => {
 	return (
@@ -13,7 +14,7 @@ const Slider = () => {
 						<ul>
 							<li data-index="rs-36" className="dark" data-transition="fadetoleftfadefromright" data-fstransition="fade" data-slotamount="7" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000" data-thumb="" data-rotate="0" data-saveperformance="off" data-title="Enjoy Nature" data-description="">
 
-								<img src="demos/spa/images/slider/1.jpg" style={{backgroundColor:"#ffffff"}} alt="Image" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" className="rev-slidebg" data-no-retina />
+								<img src={IMAGE_DATA.slider[1]} style={{backgroundColor:"#ffffff"}} alt="Image" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" className="rev-slidebg" data-no-retina />
 
 								<div className="tp-caption tp-shape tp-shapewrapper rs-parallaxlevel-0"
 									id="slide-36-layer-4"
@@ -149,7 +150,7 @@ const Slider = () => {
 								</div>
 							</li>
 							<li data-index="rs-37" data-transition="fadetoleftfadefromright" data-fstransition="fade" data-slotamount="7" data-easein="default" data-easeout="default" data-masterspeed="1500" data-thumb="http://server.local/revslider/wp-content/uploads/" data-rotate="0" data-saveperformance="off" data-title="Smart Look" data-description="">
-								<img src="demos/spa/images/slider/2.jpg" style={{backgroundColor:"#ffffff"}} alt="Image" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" className="rev-slidebg" data-no-retina />
+								<img src={IMAGE_DATA.slider[2]} style={{backgroundColor:"#ffffff"}} alt="Image" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" className="rev-slidebg" data-no-retina />
 
 								<div className="tp-caption -  "
 									id="slide-37-layer-3"

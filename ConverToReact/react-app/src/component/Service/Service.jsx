@@ -1,6 +1,9 @@
 /* eslint-disable react/style-prop-object */
 import React from 'react'
+import { IMAGE_DATA } from '../../assests/images'
 import ServiceCard from '../ServiceCard/ServiceCard'
+
+
 
 const Service = () => {
     const serviceList = [
@@ -9,21 +12,21 @@ const Service = () => {
             title: 'Construction Process Organized',
             desc: 'Porro repellat vero sapiente amet vitae quibusdam necessitatibus consectetur, labore totam. Accusamus perspiciatis asperiores labore esse.',
             link: '/',
-            image: 'demos/spa/images/others/2.jpg'
+            image: IMAGE_DATA.services[1]
         },
         {
             category: 'Spa',
             title: 'Construction Process Organized',
             desc: 'Porro repellat vero sapiente amet vitae quibusdam necessitatibus consectetur, labore totam. Accusamus perspiciatis asperiores labore esse.',
             link: '/',
-            image: 'demos/spa/images/others/2.jpg'
+            image: IMAGE_DATA.services[2]
         },
         {
             category: 'Spa',
             title: 'Construction Process Organized',
             desc: 'Porro repellat vero sapiente amet vitae quibusdam necessitatibus consectetur, labore totam. Accusamus perspiciatis asperiores labore esse.',
             link: '/',
-            image: 'demos/spa/images/others/2.jpg'
+            image: IMAGE_DATA.services[3]
         }]
 
     return (

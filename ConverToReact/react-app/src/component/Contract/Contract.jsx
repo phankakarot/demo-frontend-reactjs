@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from 'react'
+import { IMAGE_DATA } from '../../assests/images/index';
 
 const Contract = () => {
     return (
@@ -57,7 +58,7 @@ const Contract = () => {
                     </div>
                 </div>
                 <div className="col-md-6">
-                    <img className="topmargin" src="demos/spa/images/others/3.jpg" alt="Image" />
+                    <img className="topmargin" src={IMAGE_DATA.others[3]}  alt="Image" />
                 </div>
             </div>
         </section>

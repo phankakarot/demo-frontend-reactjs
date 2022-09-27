@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from 'react'
+import { IMAGE_DATA } from '../../assests/images'
 
 const About = () => {
 
@@ -33,7 +34,7 @@ const About = () => {
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, libero voluptas iusto quo illum quam possimus provident, deserunt est minima quisquam amet magnam animi? Enim adipisci facilis voluptas odit! Facilis rerum ipsam modi perspiciatis exercitationem explicabo, tempore soluta culpa cupiditate!</p>
 					</div>
 					<div className="col-lg-6">
-						<img className="bottommargin-lg mx-auto img-fluid" src="demos/spa/images/others/1.png" alt="Image" />
+						<img className="bottommargin-lg mx-auto img-fluid" src={IMAGE_DATA.others[2]} alt="Image" />
 					</div>
 				</div>
 				<div className="row">
