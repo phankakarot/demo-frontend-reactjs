@@ -1,4 +1,4 @@
-window.scwAccordionsPlugin = window.scwAccordionsPlugin || {};
+window.scwAccordigionsPlugin = window.scwAccordionsPlugin || {};
 
 window.SEMICOLON_accordionsInit = function( $accordionEl ){
 
