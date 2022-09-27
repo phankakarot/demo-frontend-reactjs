@@ -1,6 +1,7 @@
 import React from 'react'
 
-const ServiceCard = ({category,title,desc,link,image}) => {
+const ServiceCard = ({service}) => {
+    const {category,title,desc,link,image} = service
     return (
         <div class="col-sm-6 col-md-4 text-center">
             <div class="feature-box media-box">

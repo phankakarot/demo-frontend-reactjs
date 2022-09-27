@@ -4,6 +4,7 @@ import './Navigation.css'
 const Navigation = () => {
 
   const navigateList = ['Home', 'About', 'Price', 'Testimonials', 'Contact']
+  
   return (
     <header id="header" className="transparent-header dark no-sticky" data-responsive-class="dark">
       <div id="header-wrap">

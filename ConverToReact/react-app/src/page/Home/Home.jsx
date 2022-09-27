@@ -21,9 +21,9 @@ const Home = () => {
                             Book your visit online and save upto 25% Discount
                         </div>
                     </a>
-                    <Price/>
-                    <Testimonials/>
-                    <Contract/>
+                    <Price />
+                    <Testimonials />
+                    <Contract />
                 </div>
             </section>
         </div>
