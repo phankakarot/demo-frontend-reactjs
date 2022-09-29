@@ -1,7 +1,10 @@
 import React, { useState } from 'react'
 
 function Footer() {
-    const [address, setAddress] = useState('')
+    const address =[
+		'795 Folsom Ave, Suite 600 San Francisco, CA 94107',
+		'796 Folsom Ave, Suite 601 San Francisco, CA 94108'
+	]
 
         return (
         <footer id="footer" class="border-0" style="background-color: #F5F5F5;">
@@ -13,11 +16,14 @@ function Footer() {
 							<div class="widget clearfix">
 								<div>
 									<h5>Headquarters:</h5>
-									<address class="mb-0">
-										<div class="text-muted">
-											<p class="mb-0">${address}</p>
-										</div>
-									</address>
+									{address.map(data =>{
+										return <address class="mb-0">
+												<div class="text-muted">
+													<p class="mb-0">{data}</p>
+												</div>
+										</address>
+									})}
+									
 								</div>
 							</div>
 						</div>
